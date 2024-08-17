@@ -1,6 +1,4 @@
-Here's a simple and beginner-friendly README content for your contact management project:
 
----
 
 # Contact Management App
 
