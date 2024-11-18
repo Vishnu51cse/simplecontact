@@ -1,8 +1,16 @@
 {
-  "rewrites": [
+  "version": 2,
+  "name": "contact-management-frontend",
+  "builds": [
     {
-      "source":"/(.*)",
-      "direction":"/"
+      "src": "build/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
