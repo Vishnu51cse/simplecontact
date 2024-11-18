@@ -1,16 +1,1 @@
-{
-  "version": 2,
-  "name": "contact-management-frontend",
-  "builds": [
-    {
-      "src": "build/**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
+
