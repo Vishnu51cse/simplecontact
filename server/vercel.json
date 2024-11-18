@@ -13,9 +13,9 @@
       "dest": "index.js"
     }
   ],
-  "env": [
+  "env": {
    {
     "MONGO_URI": "mongodb+srv://admin1:vishnu@cluster0.xru4n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   }
-  ]
+}
 }
