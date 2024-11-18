@@ -8,9 +8,9 @@ const corsOptions = {
   allowedHeaders: ['Content-Type'],  // Allowed headers
 };
 
-app.use(cors(corsOptions));
-const app = express();
 
+const app = express();
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const PORT = process.env.PORT || 8080;
