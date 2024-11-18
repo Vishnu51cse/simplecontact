@@ -89,7 +89,7 @@ app.delete("/delete/:id", async (req, res) => {
     }
 });
 
-mongoose.connect("mongodb://127.0.0.1:27017/mern")
+mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("Connected to DB");
         app.listen(PORT, () => console.log("Server is running"));
