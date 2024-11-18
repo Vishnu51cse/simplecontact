@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const corsOptions = {
-  origin: 'https://simplecontact-8iiy.vercel.app',  // Frontend domain
+  origin: 'https://simplecontact-8iiy-git-main-vishnu-prasads-projects-2bd65f14.vercel.app/',  // Frontend domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Allowed HTTP methods
   allowedHeaders: ['Content-Type'],  // Allowed headers
 };
