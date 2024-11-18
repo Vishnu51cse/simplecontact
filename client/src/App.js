@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Formtable from './components/Formtable';
 
-axios.defaults.baseURL = "/https://simplecontact.vercel.app/";
+axios.defaults.baseURL = "https://simplecontact.vercel.app/";
 
 function App() {
   const [addSection, setAddSection] = useState(false);
